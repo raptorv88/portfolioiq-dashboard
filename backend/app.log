@@ -1,0 +1,1075 @@
+2026-03-20 10:56:11,904 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 10:56:13,115 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 10:56:14,036 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 10:56:15,062 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:15,776 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:15,780 | ERROR | 
+3 Failed downloads:
+2026-03-20 10:56:15,780 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 10:56:15,780 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:16,086 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 10:56:17,019 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:17,115 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:17,116 | ERROR | 
+3 Failed downloads:
+2026-03-20 10:56:17,116 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 10:56:17,116 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:25,198 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 10:56:36,370 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 10:56:37,489 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:38,000 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 10:56:39,809 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 10:56
+2026-03-20 11:01:01,164 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-02-10 to 2026-03-11 | label=Analysis 20 Mar 2026, 11:01
+2026-03-20 11:10:42,915 | ERROR | $ACCENTMICROCELL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:42,918 | ERROR | 
+1 Failed download:
+2026-03-20 11:10:42,920 | ERROR | ['ACCENTMICROCELL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:45,559 | ERROR | $ACCENTMICROCELL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:45,562 | ERROR | 
+1 Failed download:
+2026-03-20 11:10:45,564 | ERROR | ['ACCENTMICROCELL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:48,153 | ERROR | $ACCENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:48,154 | ERROR | 
+1 Failed download:
+2026-03-20 11:10:48,156 | ERROR | ['ACCENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:50,686 | ERROR | $ACCENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:50,689 | ERROR | 
+1 Failed download:
+2026-03-20 11:10:50,691 | ERROR | ['ACCENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:54,981 | ERROR | $CHANDANHEALTHCARE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:54,983 | ERROR | 
+1 Failed download:
+2026-03-20 11:10:54,985 | ERROR | ['CHANDANHEALTHCARE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:57,643 | ERROR | $CHANDANHEALTHCARE.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:10:57,646 | ERROR | 
+1 Failed download:
+2026-03-20 11:10:57,646 | ERROR | ['CHANDANHEALTHCARE.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:00,306 | ERROR | $CHANDAN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:00,312 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:00,313 | ERROR | ['CHANDAN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:03,070 | ERROR | $CHANDAN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:03,075 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:03,076 | ERROR | ['CHANDAN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:07,167 | ERROR | $KILBURNENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:07,175 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:07,176 | ERROR | ['KILBURNENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:09,742 | ERROR | $KILBURNENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:09,751 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:09,751 | ERROR | ['KILBURNENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:12,316 | ERROR | $KILBURN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:12,318 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:12,319 | ERROR | ['KILBURN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:15,055 | ERROR | $KILBURN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:15,058 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:15,058 | ERROR | ['KILBURN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:19,747 | ERROR | $MCNALLYBHARATENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:19,751 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:19,752 | ERROR | ['MCNALLYBHARATENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:22,326 | ERROR | $MCNALLYBHARATENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:22,333 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:22,334 | ERROR | ['MCNALLYBHARATENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:25,133 | ERROR | $MCNALLY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:25,135 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:25,136 | ERROR | ['MCNALLY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:26,608 | ERROR | $MCNALLY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:26,612 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:26,613 | ERROR | ['MCNALLY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:27,940 | ERROR | $MCNALLYBHARAT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:27,944 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:27,944 | ERROR | ['MCNALLYBHARAT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:29,595 | ERROR | $MBE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:29,598 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:29,598 | ERROR | ['MBE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:31,745 | ERROR | $MODERNINSULATORS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:31,746 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:31,747 | ERROR | ['MODERNINSULATORS.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:34,512 | ERROR | $MODERNINSULATORS.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:34,514 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:34,515 | ERROR | ['MODERNINSULATORS.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:35,944 | ERROR | $MODERN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:35,953 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:35,954 | ERROR | ['MODERN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:37,377 | ERROR | $MODERN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:37,386 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:37,387 | ERROR | ['MODERN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:39,119 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:39,120 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:39,121 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:40,757 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:40,764 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:40,765 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:42,192 | ERROR | $PODDAR.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:42,192 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:42,194 | ERROR | ['PODDAR.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:43,831 | ERROR | $PODDAR.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:43,832 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:43,834 | ERROR | ['PODDAR.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:45,878 | ERROR | $PODDARHOUSING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:45,886 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:45,887 | ERROR | ['PODDARHOUSING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:47,149 | ERROR | $PHAD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:47,157 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:47,158 | ERROR | ['PHAD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:49,178 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:49,180 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:49,181 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:50,695 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:50,695 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:50,697 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:52,227 | ERROR | $SOVEREIGN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:52,235 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:52,236 | ERROR | ['SOVEREIGN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:53,765 | ERROR | $SOVEREIGN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:53,769 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:53,770 | ERROR | ['SOVEREIGN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:55,301 | ERROR | $SOVEREIGNGOLD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:55,308 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:55,309 | ERROR | ['SOVEREIGNGOLD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:56,938 | ERROR | $SGB2S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:56,947 | ERROR | 
+1 Failed download:
+2026-03-20 11:11:56,948 | ERROR | ['SGB2S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:59,098 | ERROR | $SINTEXPLASTICS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:59,909 | ERROR | $SUNADVANCEDC.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:11:59,918 | ERROR | $KOTAKLIQUID.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:00,139 | ERROR | $XPRO.BO: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:12:00,728 | ERROR | $ORIENT.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:00,736 | ERROR | $ADMACH.BO: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:12:01,037 | ERROR | $ALUWIND.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:12:01,345 | ERROR | $ZYDUS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:02,162 | ERROR | $UNITEDSPIRITS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:03,816 | ERROR | $SHILPAMEDICARE.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:04,621 | ERROR | $VINTAGECOFFEE.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:04,928 | ERROR | $JEENASIKHO.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:04,937 | ERROR | 
+12 Failed downloads:
+2026-03-20 11:12:04,938 | ERROR | ['SINTEXPLASTICS.NS', 'SUNADVANCEDC.NS', 'KOTAKLIQUID.NS', 'ORIENT.NS', 'ZYDUS.NS', 'UNITEDSPIRITS.NS', 'SHILPAMEDICARE.NS', 'VINTAGECOFFEE.NS', 'JEENASIKHO.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:04,939 | ERROR | ['XPRO.BO', 'ADMACH.BO', 'ALUWIND.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:12:05,345 | ERROR | $XPRO.BO: possibly delisted; no price data found  (period=5d)
+2026-03-20 11:12:06,157 | ERROR | $VINTAGECOFFEE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,159 | ERROR | $SINTEXPLASTICS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,162 | ERROR | $KOTAKLIQUID.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,163 | ERROR | $SUNADVANCEDC.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,259 | ERROR | $ZYDUS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,262 | ERROR | $ORIENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,771 | ERROR | $JEENASIKHO.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,771 | ERROR | $SHILPAMEDICARE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,773 | ERROR | $UNITEDSPIRITS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:06,775 | ERROR | 
+10 Failed downloads:
+2026-03-20 11:12:06,776 | ERROR | ['XPRO.BO']: possibly delisted; no price data found  (period=5d)
+2026-03-20 11:12:06,776 | ERROR | ['VINTAGECOFFEE.NS', 'SINTEXPLASTICS.NS', 'KOTAKLIQUID.NS', 'SUNADVANCEDC.NS', 'ZYDUS.NS', 'ORIENT.NS', 'JEENASIKHO.NS', 'SHILPAMEDICARE.NS', 'UNITEDSPIRITS.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:08,101 | ERROR | $ACCENTMICROCELL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:08,104 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:08,105 | ERROR | ['ACCENTMICROCELL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:09,332 | ERROR | $ACCENTMICROCELL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:09,336 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:09,337 | ERROR | ['ACCENTMICROCELL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:10,769 | ERROR | $ACCENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:10,778 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:10,779 | ERROR | ['ACCENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:11,691 | ERROR | $ACCENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:11,699 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:11,700 | ERROR | ['ACCENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:13,121 | ERROR | $CHANDANHEALTHCARE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:13,128 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:13,128 | ERROR | ['CHANDANHEALTHCARE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:13,735 | ERROR | $CHANDANHEALTHCARE.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:13,741 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:13,741 | ERROR | ['CHANDANHEALTHCARE.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:15,067 | ERROR | $CHANDAN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:15,076 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:15,077 | ERROR | ['CHANDAN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:15,886 | ERROR | $CHANDAN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:15,892 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:15,893 | ERROR | ['CHANDAN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:17,318 | ERROR | $KILBURNENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:17,327 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:17,327 | ERROR | ['KILBURNENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:18,139 | ERROR | $KILBURNENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:18,142 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:18,143 | ERROR | ['KILBURNENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:20,290 | ERROR | $KILBURN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:20,295 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:20,296 | ERROR | ['KILBURN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:20,902 | ERROR | $KILBURN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:20,907 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:20,907 | ERROR | ['KILBURN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:22,234 | ERROR | $MCNALLYBHARATENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:22,243 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:22,243 | ERROR | ['MCNALLYBHARATENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:23,054 | ERROR | $MCNALLYBHARATENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:23,063 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:23,064 | ERROR | ['MCNALLYBHARATENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:24,487 | ERROR | $MCNALLY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:24,497 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:24,497 | ERROR | ['MCNALLY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:25,308 | ERROR | $MCNALLY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:25,312 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:25,314 | ERROR | ['MCNALLY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:26,740 | ERROR | $MCNALLYBHARAT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:26,744 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:26,745 | ERROR | ['MCNALLYBHARAT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:27,464 | ERROR | $MBE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:27,467 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:27,467 | ERROR | ['MBE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:28,892 | ERROR | $MODERNINSULATORS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:28,897 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:28,898 | ERROR | ['MODERNINSULATORS.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:29,609 | ERROR | $MODERNINSULATORS.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:29,615 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:29,616 | ERROR | ['MODERNINSULATORS.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:30,836 | ERROR | $MODERN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:30,843 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:30,843 | ERROR | ['MODERN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:31,569 | ERROR | $MODERN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:31,569 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:31,572 | ERROR | ['MODERN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:32,884 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:32,889 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:32,890 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:33,601 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:33,603 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:33,603 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:34,855 | ERROR | $PODDAR.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:34,863 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:34,863 | ERROR | ['PODDAR.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:35,755 | ERROR | $PODDAR.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:35,761 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:35,761 | ERROR | ['PODDAR.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:37,084 | ERROR | $PODDARHOUSING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:37,093 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:37,094 | ERROR | ['PODDARHOUSING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:37,904 | ERROR | $PHAD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:37,904 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:37,905 | ERROR | ['PHAD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:39,235 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:39,243 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:39,243 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:40,158 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:40,160 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:40,161 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:41,500 | ERROR | $SOVEREIGN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:41,509 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:41,510 | ERROR | ['SOVEREIGN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:42,313 | ERROR | $SOVEREIGN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:42,320 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:42,321 | ERROR | ['SOVEREIGN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:43,638 | ERROR | $SOVEREIGNGOLD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:43,643 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:43,644 | ERROR | ['SOVEREIGNGOLD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:44,474 | ERROR | $SGB2S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:44,479 | ERROR | 
+1 Failed download:
+2026-03-20 11:12:44,480 | ERROR | ['SGB2S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:12:48,866 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SINTEXPLASTICS.NS"}}}
+2026-03-20 11:12:51,832 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KOTAKLIQUID.NS"}}}
+2026-03-20 11:12:57,873 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SUNADVANCEDC.NS"}}}
+2026-03-20 11:13:02,686 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ORIENT.NS"}}}
+2026-03-20 11:13:07,091 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZYDUS.NS"}}}
+2026-03-20 11:13:14,772 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNITEDSPIRITS.NS"}}}
+2026-03-20 11:13:33,411 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SHILPAMEDICARE.NS"}}}
+2026-03-20 11:13:42,525 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VINTAGECOFFEE.NS"}}}
+2026-03-20 11:13:44,470 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: JEENASIKHO.NS"}}}
+2026-03-20 11:13:50,730 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 11:13
+2026-03-20 11:28:48,483 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ACCENTMICROCELL.NS"}}}
+2026-03-20 11:28:49,481 | ERROR | $ACCENTMICROCELL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:49,482 | ERROR | 
+1 Failed download:
+2026-03-20 11:28:49,482 | ERROR | ['ACCENTMICROCELL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:51,545 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ACCENTMICROCELL.BO"}}}
+2026-03-20 11:28:52,656 | ERROR | $ACCENTMICROCELL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:52,664 | ERROR | 
+1 Failed download:
+2026-03-20 11:28:52,664 | ERROR | ['ACCENTMICROCELL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:54,809 | ERROR | $ACCENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:54,811 | ERROR | 
+1 Failed download:
+2026-03-20 11:28:54,813 | ERROR | ['ACCENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:56,863 | ERROR | $ACCENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:56,863 | ERROR | 
+1 Failed download:
+2026-03-20 11:28:56,866 | ERROR | ['ACCENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:59,620 | ERROR | $CHANDANHEALTHCARE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:28:59,620 | ERROR | 
+1 Failed download:
+2026-03-20 11:28:59,621 | ERROR | ['CHANDANHEALTHCARE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:01,770 | ERROR | $CHANDANHEALTHCARE.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:01,775 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:01,775 | ERROR | ['CHANDANHEALTHCARE.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:03,717 | ERROR | $CHANDAN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:03,722 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:03,723 | ERROR | ['CHANDAN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:05,150 | ERROR | $CHANDAN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:05,156 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:05,156 | ERROR | ['CHANDAN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:06,916 | ERROR | $KILBURNENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:06,917 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:06,919 | ERROR | ['KILBURNENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:08,222 | ERROR | $KILBURNENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:08,227 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:08,227 | ERROR | ['KILBURNENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:10,067 | ERROR | $KILBURN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:10,079 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:10,105 | ERROR | ['KILBURN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:12,035 | ERROR | $KILBURN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:12,042 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:12,042 | ERROR | ['KILBURN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:13,645 | ERROR | $MCNALLYBHARATENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:13,647 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:13,647 | ERROR | ['MCNALLYBHARATENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:15,285 | ERROR | $MCNALLYBHARATENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:15,290 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:15,290 | ERROR | ['MCNALLYBHARATENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:17,433 | ERROR | $MCNALLY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:17,441 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:17,441 | ERROR | ['MCNALLY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:19,072 | ERROR | $MCNALLY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:19,082 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:19,095 | ERROR | ['MCNALLY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:20,410 | ERROR | $MCNALLYBHARAT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:20,411 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:20,413 | ERROR | ['MCNALLYBHARAT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:21,949 | ERROR | $MBE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:21,953 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:21,954 | ERROR | ['MBE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:24,111 | ERROR | $MODERNINSULATORS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:24,114 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:24,114 | ERROR | ['MODERNINSULATORS.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:25,431 | ERROR | $MODERNINSULATORS.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:25,432 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:25,435 | ERROR | ['MODERNINSULATORS.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:26,861 | ERROR | $MODERN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:26,866 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:26,867 | ERROR | ['MODERN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:28,398 | ERROR | $MODERN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:28,403 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:28,403 | ERROR | ['MODERN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:30,233 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:30,241 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:30,241 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:31,783 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:31,784 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:31,788 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:33,416 | ERROR | $PODDAR.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:33,425 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:33,425 | ERROR | ['PODDAR.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:34,758 | ERROR | $PODDAR.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:34,764 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:34,770 | ERROR | ['PODDAR.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:36,078 | ERROR | $PODDARHOUSING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:36,082 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:36,082 | ERROR | ['PODDARHOUSING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:37,922 | ERROR | $PHAD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:37,923 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:37,924 | ERROR | ['PHAD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:39,560 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:39,562 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:39,563 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:41,426 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:41,428 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:41,429 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:43,144 | ERROR | $SOVEREIGN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:43,149 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:43,149 | ERROR | ['SOVEREIGN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:44,898 | ERROR | $SOVEREIGN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:44,898 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:44,900 | ERROR | ['SOVEREIGN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:46,628 | ERROR | $SOVEREIGNGOLD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:46,628 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:46,632 | ERROR | ['SOVEREIGNGOLD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:48,164 | ERROR | $SGB2S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:48,165 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:48,168 | ERROR | ['SGB2S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:49,405 | ERROR | $ALUWIND.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:29:49,442 | ERROR | $XPRO.BO: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:29:49,802 | ERROR | $VINTAGECOFFEE.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:50,010 | ERROR | $ADMACH.BO: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:29:50,522 | ERROR | $JEENASIKHO.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:52,571 | ERROR | $KOTAKLIQUID.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:52,574 | ERROR | $SHILPAMEDICARE.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:53,796 | ERROR | $UNITEDSPIRITS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:55,333 | ERROR | $ZYDUS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:55,336 | ERROR | $ORIENT.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:56,049 | ERROR | $SINTEXPLASTICS.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:56,156 | ERROR | $SUNADVANCEDC.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:56,388 | ERROR | 
+12 Failed downloads:
+2026-03-20 11:29:56,388 | ERROR | ['ALUWIND.NS', 'XPRO.BO', 'ADMACH.BO']: possibly delisted; no price data found  (period=1d)
+2026-03-20 11:29:56,389 | ERROR | ['VINTAGECOFFEE.NS', 'JEENASIKHO.NS', 'KOTAKLIQUID.NS', 'SHILPAMEDICARE.NS', 'UNITEDSPIRITS.NS', 'ZYDUS.NS', 'ORIENT.NS', 'SINTEXPLASTICS.NS', 'SUNADVANCEDC.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,590 | ERROR | $ORIENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,600 | ERROR | $ZYDUS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,602 | ERROR | $SUNADVANCEDC.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,604 | ERROR | $KOTAKLIQUID.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,607 | ERROR | $JEENASIKHO.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,612 | ERROR | $SHILPAMEDICARE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,689 | ERROR | $VINTAGECOFFEE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:57,701 | ERROR | $XPRO.BO: possibly delisted; no price data found  (period=5d)
+2026-03-20 11:29:58,202 | ERROR | $SINTEXPLASTICS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:58,204 | ERROR | $UNITEDSPIRITS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:58,205 | ERROR | 
+10 Failed downloads:
+2026-03-20 11:29:58,208 | ERROR | ['ORIENT.NS', 'ZYDUS.NS', 'SUNADVANCEDC.NS', 'KOTAKLIQUID.NS', 'JEENASIKHO.NS', 'SHILPAMEDICARE.NS', 'VINTAGECOFFEE.NS', 'SINTEXPLASTICS.NS', 'UNITEDSPIRITS.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:58,209 | ERROR | ['XPRO.BO']: possibly delisted; no price data found  (period=5d)
+2026-03-20 11:29:59,122 | ERROR | $ACCENTMICROCELL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:29:59,128 | ERROR | 
+1 Failed download:
+2026-03-20 11:29:59,129 | ERROR | ['ACCENTMICROCELL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:00,147 | ERROR | $ACCENTMICROCELL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:00,147 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:00,148 | ERROR | ['ACCENTMICROCELL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:01,910 | ERROR | $ACCENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:01,914 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:01,915 | ERROR | ['ACCENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:02,604 | ERROR | $ACCENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:02,605 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:02,608 | ERROR | ['ACCENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:03,628 | ERROR | $CHANDANHEALTHCARE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:03,637 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:03,638 | ERROR | ['CHANDANHEALTHCARE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:04,344 | ERROR | $CHANDANHEALTHCARE.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:04,345 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:04,347 | ERROR | ['CHANDANHEALTHCARE.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:05,267 | ERROR | $CHANDAN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:05,270 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:05,271 | ERROR | ['CHANDAN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:05,899 | ERROR | $CHANDAN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:05,905 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:05,905 | ERROR | ['CHANDAN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:06,704 | ERROR | $KILBURNENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:06,704 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:06,706 | ERROR | ['KILBURNENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:07,315 | ERROR | $KILBURNENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:07,317 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:07,318 | ERROR | ['KILBURNENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:08,338 | ERROR | $KILBURN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:08,339 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:08,340 | ERROR | ['KILBURN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:09,262 | ERROR | $KILBURN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:09,262 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:09,265 | ERROR | ['KILBURN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:10,082 | ERROR | $MCNALLYBHARATENGINEERING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:10,086 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:10,087 | ERROR | ['MCNALLYBHARATENGINEERING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:10,803 | ERROR | $MCNALLYBHARATENGINEERING.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:10,805 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:10,806 | ERROR | ['MCNALLYBHARATENGINEERING.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:11,923 | ERROR | $MCNALLY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:11,931 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:11,932 | ERROR | ['MCNALLY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:12,641 | ERROR | $MCNALLY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:12,642 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:12,645 | ERROR | ['MCNALLY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:13,561 | ERROR | $MCNALLYBHARAT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:13,561 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:13,563 | ERROR | ['MCNALLYBHARAT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:14,193 | ERROR | $MBE.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:14,194 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:14,196 | ERROR | ['MBE.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:15,404 | ERROR | $MODERNINSULATORS.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:15,408 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:15,409 | ERROR | ['MODERNINSULATORS.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:16,141 | ERROR | $MODERNINSULATORS.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:16,142 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:16,143 | ERROR | ['MODERNINSULATORS.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:17,658 | ERROR | $MODERN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:17,659 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:17,662 | ERROR | ['MODERN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:18,476 | ERROR | $MODERN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:18,478 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:18,478 | ERROR | ['MODERN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:19,633 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:19,641 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:19,641 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:20,438 | ERROR | $PODDARHOUSINGANDDEVELOPMENT.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:20,447 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:20,448 | ERROR | ['PODDARHOUSINGANDDEVELOPMENT.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:23,189 | ERROR | $PODDAR.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:23,196 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:23,196 | ERROR | ['PODDAR.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:23,909 | ERROR | $PODDAR.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:23,917 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:23,918 | ERROR | ['PODDAR.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:24,828 | ERROR | $PODDARHOUSING.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:24,836 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:24,836 | ERROR | ['PODDARHOUSING.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:25,544 | ERROR | $PHAD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:25,546 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:25,548 | ERROR | ['PHAD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:26,466 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:26,471 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:26,472 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:27,079 | ERROR | $SOVEREIGNGOLDBONDS2020-21S.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:27,088 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:27,089 | ERROR | ['SOVEREIGNGOLDBONDS2020-21S.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:28,012 | ERROR | $SOVEREIGN.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:28,017 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:28,018 | ERROR | ['SOVEREIGN.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:29,026 | ERROR | $SOVEREIGN.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:29,031 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:29,032 | ERROR | ['SOVEREIGN.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:29,646 | ERROR | $SOVEREIGNGOLD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:29,646 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:29,647 | ERROR | ['SOVEREIGNGOLD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:30,459 | ERROR | $SGB2S.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:30,467 | ERROR | 
+1 Failed download:
+2026-03-20 11:30:30,468 | ERROR | ['SGB2S.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 11:30:33,019 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VINTAGECOFFEE.NS"}}}
+2026-03-20 11:30:35,479 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: JEENASIKHO.NS"}}}
+2026-03-20 11:30:43,362 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KOTAKLIQUID.NS"}}}
+2026-03-20 11:30:45,410 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SHILPAMEDICARE.NS"}}}
+2026-03-20 11:30:48,073 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: UNITEDSPIRITS.NS"}}}
+2026-03-20 11:30:54,627 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZYDUS.NS"}}}
+2026-03-20 11:30:57,086 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ORIENT.NS"}}}
+2026-03-20 11:31:01,079 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SINTEXPLASTICS.NS"}}}
+2026-03-20 11:31:02,513 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SUNADVANCEDC.NS"}}}
+2026-03-20 11:31:08,798 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 11:31
+2026-03-20 11:40:33,796 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-02-10 to 2026-03-11 | label=Analysis 20 Mar 2026, 11:40
+2026-03-20 11:47:13,149 | ERROR | ANALYSIS FAILED | user=john.doe | error=cannot access local variable 'holdings' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 501, in run_analysis_endpoint
+    R = run_full_analysis(tb, hb)
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 298, in run_full_analysis
+    trade_holdings_df, trade_realized_df = calculate_equity_positions(
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        equity_df, opening_lots=opening_lots
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\portfolio_analysis.py", line 424, in calculate_equity_positions
+    holdings = holdings[holdings['Net Quantity'] > 0].reset_index(drop=True)
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'holdings' where it is not associated with a value
+2026-03-20 11:47:22,658 | ERROR | ANALYSIS FAILED | user=john.doe | error=cannot access local variable 'holdings' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 501, in run_analysis_endpoint
+    R = run_full_analysis(tb, hb)
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 298, in run_full_analysis
+    trade_holdings_df, trade_realized_df = calculate_equity_positions(
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        equity_df, opening_lots=opening_lots
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\portfolio_analysis.py", line 424, in calculate_equity_positions
+    holdings = holdings[holdings['Net Quantity'] > 0].reset_index(drop=True)
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'holdings' where it is not associated with a value
+2026-03-20 11:56:34,177 | ERROR | ANALYSIS FAILED | user=john.doe | error=cannot access local variable 'holdings' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 501, in run_analysis_endpoint
+    R = run_full_analysis(tb, hb)
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 298, in run_full_analysis
+    trade_holdings_df, trade_realized_df = calculate_equity_positions(
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        equity_df, opening_lots=opening_lots
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\portfolio_analysis.py", line 424, in calculate_equity_positions
+    holdings = holdings[holdings['Net Quantity'] > 0].reset_index(drop=True)
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'holdings' where it is not associated with a value
+2026-03-20 12:00:36,240 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-02-10 to 2026-03-11 | label=Analysis 20 Mar 2026, 12:00
+2026-03-20 12:02:18,056 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-03-06 to 2026-03-20 | label=Analysis 20 Mar 2026, 12:02
+2026-03-20 12:20:32,352 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-03-06 to 2026-03-20 | label=Analysis 20 Mar 2026, 12:20
+2026-03-20 12:52:06,661 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-03-06 to 2026-03-20 | label=Analysis 20 Mar 2026, 12:52
+2026-03-20 12:59:08,996 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-03-06 to 2026-03-20 | label=Analysis 20 Mar 2026, 12:59
+2026-03-20 12:59:44,372 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 12:59:45,555 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 12:59:46,068 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 12:59:46,685 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:47,401 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:47,405 | ERROR | 
+3 Failed downloads:
+2026-03-20 12:59:47,406 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 12:59:47,407 | ERROR | ['PEL.NS', 'KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:47,708 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 12:59:48,323 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:48,425 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:48,427 | ERROR | 
+3 Failed downloads:
+2026-03-20 12:59:48,430 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 12:59:48,431 | ERROR | ['PEL.NS', 'KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:53,546 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 12:59:55,388 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 12:59:56,414 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:57,133 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 12:59:59,871 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 12:59
+2026-03-20 13:04:45,737 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 13:04:46,852 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 13:04:47,588 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 13:04:47,670 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:48,593 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:48,601 | ERROR | 
+3 Failed downloads:
+2026-03-20 13:04:48,602 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 13:04:48,603 | ERROR | ['PEL.NS', 'KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:48,812 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 13:04:49,207 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:49,209 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:49,219 | ERROR | 
+3 Failed downloads:
+2026-03-20 13:04:49,219 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 13:04:49,220 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:54,326 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 13:04:55,351 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:04:56,068 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 13:05:00,062 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 13:05:01,915 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 13:05
+2026-03-20 13:05:05,103 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 13:05:05,136 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 13:09:45,437 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 13:09:45,474 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 13:10:05,010 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2026-03-06 to 2026-03-20 | label=Analysis 20 Mar 2026, 13:10
+2026-03-20 13:10:11,868 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 13:10:11,894 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:05:35,114 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:05:35,562 | ERROR | 
+1 Failed download:
+2026-03-20 14:05:35,563 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:05:37,979 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:05:37,988 | ERROR | 
+1 Failed download:
+2026-03-20 14:05:37,988 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:05:41,864 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 14:05:44,745 | INFO | ANALYSIS COMPLETE | user=john.doe | client=Date Range: 2025-12-21 to 2026-03-20 | label=Analysis 20 Mar 2026, 14:05
+2026-03-20 14:06:08,399 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:06:08,444 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:10:50,783 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:10:50,840 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:34:44,864 | WARNING | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-20 14:34:45,233 | INFO | NEW USER | username=hellou | email=hello@gmail.com
+2026-03-20 14:35:00,476 | ERROR | ANALYSIS FAILED | user=hellou | error=Trade Report missing columns: ['Segment', 'Quantity', 'Price', 'Trade Date', 'Action', 'Amount']. Found: ['Scrip Name', 'Buy Quantity', 'Buy Rate', 'Buy Amount', 'Buy Date', 'Sell Quantity', 'Sell Rate', 'Sell Amount', 'Sell Date', 'Net Quantity', 'Current Amount', 'P&L Amount', 'Closing Price']
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 522, in run_analysis_endpoint
+    R = run_full_analysis(tb, hb)
+  File "C:\Users\soham_313igpq\OneDrive\Desktop\Analysis_Dashboard\backend\main.py", line 285, in run_full_analysis
+    raise ValueError(f"Trade Report missing columns: {missing}. Found: {list(df.columns)}")
+ValueError: Trade Report missing columns: ['Segment', 'Quantity', 'Price', 'Trade Date', 'Action', 'Amount']. Found: ['Scrip Name', 'Buy Quantity', 'Buy Rate', 'Buy Amount', 'Buy Date', 'Sell Quantity', 'Sell Rate', 'Sell Amount', 'Sell Date', 'Net Quantity', 'Current Amount', 'P&L Amount', 'Closing Price']
+2026-03-20 14:35:18,407 | INFO | ANALYSIS COMPLETE | user=hellou | client=Date Range: 2026-03-06 to 2026-03-20 | label=Analysis 20 Mar 2026, 14:35
+2026-03-20 14:36:13,575 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:36:13,610 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:45:10,416 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:45:10,459 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:57:57,296 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 14:57:58,049 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:57:59,765 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:57:59,774 | ERROR | 
+3 Failed downloads:
+2026-03-20 14:57:59,775 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 14:57:59,775 | ERROR | ['PEL.NS', 'KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:58:00,804 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 14:58:01,393 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:58:01,395 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:58:01,396 | ERROR | 
+3 Failed downloads:
+2026-03-20 14:58:01,397 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 14:58:01,399 | ERROR | ['PEL.NS', 'KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:58:05,191 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 14:58:06,001 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:58:06,924 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 14:58:08,869 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 14:58:10,069 | INFO | ANALYSIS COMPLETE | user=hellou | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 14:58
+2026-03-20 14:58:16,517 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 14:58:16,545 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 16:12:54,115 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 16:12:56,868 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 16:12:56,868 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 16:12:58,097 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:12:59,223 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:12:59,227 | ERROR | 
+3 Failed downloads:
+2026-03-20 16:12:59,227 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 16:12:59,227 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:12:59,531 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 16:13:00,271 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:13:00,365 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:13:00,371 | ERROR | 
+3 Failed downloads:
+2026-03-20 16:13:00,373 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 16:13:00,373 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:13:13,582 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 16:13:19,721 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-20 16:13:20,833 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:13:21,550 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 16:13:22,711 | INFO | ANALYSIS COMPLETE | user=hellou | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 20 Mar 2026, 16:13
+2026-03-20 16:13:48,303 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 16:13:48,339 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 16:19:12,910 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 16:19:12,957 | INFO | Nifty 1Y return: 2.53% (from 2025-03-20 to 2026-03-18)
+2026-03-20 17:20:52,478 | ERROR | 
+24 Failed downloads:
+2026-03-20 17:20:52,480 | ERROR | ['SBIN.NS', 'ZEEL.NS', 'PILANIINV.NS', 'CUMMINSIND.NS', 'TCS.NS', 'BAJFINANCE.NS', 'ICICIBANK.NS', 'GROWW.NS', 'BALAMINES.NS', 'TIPSMUSIC.NS', 'TATASTEEL.NS', 'BBTC.NS', 'ICICIPRULI.NS', 'ARKADE.NS', 'SFL.NS', 'RELIANCE.NS', 'GUFICBIO.NS', 'PESB.BO', 'LENSKART.NS', 'KALYANIINV.NS', 'COALINDIA.NS', 'PEL.NS', 'JIOFIN.NS', 'BAJAJHLDNG.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 17:20:52,945 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 17:21:14,478 | ERROR | 
+3 Failed downloads:
+2026-03-20 17:21:14,479 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 17:21:14,479 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 17:31:01,136 | WARNING | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-20 17:31:01,392 | INFO | USER LOGIN | username=john.doe | email=john@gmail.com
+2026-03-20 17:32:43,938 | INFO | NEW USER | username=ron.costa | email=ron@gmail.com
+2026-03-20 17:33:52,018 | ERROR | Failed to get ticker 'BEL.NS' reason: Failed to perform, curl: (28) Operation timed out after 30006 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 17:35:19,237 | ERROR | 
+2 Failed downloads:
+2026-03-20 17:35:19,238 | ERROR | ['PNGSREVA.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 17:35:19,238 | ERROR | ['BEL.NS']: Timeout('Failed to perform, curl: (28) Operation timed out after 30015 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 17:35:29,285 | ERROR | Failed to get ticker 'BEL.NS' reason: Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-20 17:35:59,296 | ERROR | 
+2 Failed downloads:
+2026-03-20 17:35:59,299 | ERROR | ['PNGSREVA.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 17:35:59,299 | ERROR | ['BEL.NS']: Timeout('Failed to perform, curl: (28) Operation timed out after 30008 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2026-03-20 17:39:59,843 | INFO | ANALYSIS COMPLETE | user=ron.costa | client=Date Range: 2026-02-10 to 2026-03-11 | label=Analysis 20 Mar 2026, 17:39
+2026-03-20 17:43:32,059 | INFO | USER LOGIN | username=ron.costa | email=ron@gmail.com
+2026-03-20 17:44:11,161 | INFO | USER LOGIN | username=ron.costa | email=ron@gmail.com
+2026-03-20 17:44:31,924 | INFO | USER LOGIN | username=hellou | email=hello@gmail.com
+2026-03-20 17:45:57,893 | INFO | USER LOGIN | username=hellou | email=hello@gmail.com
+2026-03-20 18:34:04,571 | INFO | USER LOGIN | username=hellou | email=hello@gmail.com
+2026-03-20 18:34:17,183 | INFO | USER LOGIN | username=ron.costa | email=ron@gmail.com
+2026-03-20 18:48:45,185 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 18:48:48,900 | ERROR | 
+2 Failed downloads:
+2026-03-20 18:48:48,913 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 18:48:48,918 | ERROR | ['CGPOWER.NS']: TypeError("'NoneType' object is not subscriptable")
+2026-03-20 18:48:51,926 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 18:48:51,934 | ERROR | 
+1 Failed download:
+2026-03-20 18:48:51,934 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 18:48:57,892 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 18:49:06,416 | INFO | ANALYSIS COMPLETE | user=ron.costa | client=Date Range: 2025-12-21 to 2026-03-20 | label=Analysis 20 Mar 2026, 18:49
+2026-03-20 18:50:25,178 | INFO | Nifty 1Y return: -0.81% (from 2025-03-20 to 2026-03-19)
+2026-03-20 18:50:25,302 | INFO | Nifty 1Y return: -0.81% (from 2025-03-20 to 2026-03-19)
+2026-03-20 19:01:42,374 | ERROR | $NATIONALSECURITIESDEPOSITORY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:42,376 | ERROR | 
+1 Failed download:
+2026-03-20 19:01:42,377 | ERROR | ['NATIONALSECURITIESDEPOSITORY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:44,936 | ERROR | $NATIONALSECURITIESDEPOSITORY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:44,941 | ERROR | 
+1 Failed download:
+2026-03-20 19:01:44,941 | ERROR | ['NATIONALSECURITIESDEPOSITORY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:46,967 | ERROR | $NATIONAL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:46,968 | ERROR | 
+1 Failed download:
+2026-03-20 19:01:46,968 | ERROR | ['NATIONAL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:48,927 | ERROR | $NATIONAL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:48,931 | ERROR | 
+1 Failed download:
+2026-03-20 19:01:48,932 | ERROR | ['NATIONAL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:51,427 | ERROR | $NATIONALSECURITIES.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:51,428 | ERROR | 
+1 Failed download:
+2026-03-20 19:01:51,429 | ERROR | ['NATIONALSECURITIES.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:53,547 | ERROR | $NSD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:53,553 | ERROR | 
+1 Failed download:
+2026-03-20 19:01:53,553 | ERROR | ['NSD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:56,417 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:58,101 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-20 19:01:58,173 | ERROR | 
+2 Failed downloads:
+2026-03-20 19:01:58,173 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:58,174 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-20 19:01:58,872 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-20 19:01:59,767 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:01:59,776 | ERROR | 
+2 Failed downloads:
+2026-03-20 19:01:59,777 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-20 19:01:59,777 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:02,638 | ERROR | $NATIONALSECURITIESDEPOSITORY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:02,640 | ERROR | 
+1 Failed download:
+2026-03-20 19:02:02,640 | ERROR | ['NATIONALSECURITIESDEPOSITORY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:04,054 | ERROR | $NATIONALSECURITIESDEPOSITORY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:04,061 | ERROR | 
+1 Failed download:
+2026-03-20 19:02:04,061 | ERROR | ['NATIONALSECURITIESDEPOSITORY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:04,993 | ERROR | $NATIONAL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:04,995 | ERROR | 
+1 Failed download:
+2026-03-20 19:02:04,996 | ERROR | ['NATIONAL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:06,461 | ERROR | $NATIONAL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:06,466 | ERROR | 
+1 Failed download:
+2026-03-20 19:02:06,467 | ERROR | ['NATIONAL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:07,496 | ERROR | $NATIONALSECURITIES.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:07,498 | ERROR | 
+1 Failed download:
+2026-03-20 19:02:07,498 | ERROR | ['NATIONALSECURITIES.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:08,911 | ERROR | $NSD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:08,917 | ERROR | 
+1 Failed download:
+2026-03-20 19:02:08,918 | ERROR | ['NSD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-20 19:02:10,518 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-20 19:02:19,905 | INFO | ANALYSIS COMPLETE | user=ron.costa | client=Date Range: 2025-04-01 to 2026-03-20 | label=Analysis 20 Mar 2026, 19:02
+2026-03-20 19:04:13,830 | INFO | Nifty 1Y return: -0.81% (from 2025-03-20 to 2026-03-19)
+2026-03-20 19:04:13,920 | INFO | Nifty 1Y return: -0.81% (from 2025-03-20 to 2026-03-19)
+2026-03-20 19:07:07,167 | INFO | Nifty 1Y return: -0.81% (from 2025-03-20 to 2026-03-19)
+2026-03-20 19:07:07,250 | INFO | Nifty 1Y return: -0.81% (from 2025-03-20 to 2026-03-19)
+2026-03-23 11:21:15,651 | WARNING | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-23 11:21:16,026 | INFO | USER LOGIN | username=ron.costa | email=ron@gmail.com
+2026-03-23 11:21:34,878 | INFO | USER LOGIN | username=john.doe | email=john@gmail.com
+2026-03-23 11:26:04,271 | WARNING | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-23 11:26:04,525 | INFO | USER LOGIN | username=john.doe | email=john@gmail.com
+2026-03-23 11:55:21,122 | WARNING | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-23 11:55:21,403 | INFO | USER LOGIN | username=hellou | email=hello@gmail.com
+2026-03-23 11:55:50,952 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NATIONALSECURITIESDEPOSITORY.NS"}}}
+2026-03-23 11:55:52,060 | ERROR | $NATIONALSECURITIESDEPOSITORY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:52,070 | ERROR | 
+1 Failed download:
+2026-03-23 11:55:52,071 | ERROR | ['NATIONALSECURITIESDEPOSITORY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:53,612 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NATIONALSECURITIESDEPOSITORY.BO"}}}
+2026-03-23 11:55:54,735 | ERROR | $NATIONALSECURITIESDEPOSITORY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:54,742 | ERROR | 
+1 Failed download:
+2026-03-23 11:55:54,743 | ERROR | ['NATIONALSECURITIESDEPOSITORY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:56,172 | ERROR | $NATIONAL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:56,180 | ERROR | 
+1 Failed download:
+2026-03-23 11:55:56,180 | ERROR | ['NATIONAL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:57,591 | ERROR | $NATIONAL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:57,600 | ERROR | 
+1 Failed download:
+2026-03-23 11:55:57,601 | ERROR | ['NATIONAL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:59,335 | ERROR | $NATIONALSECURITIES.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:55:59,338 | ERROR | 
+1 Failed download:
+2026-03-23 11:55:59,338 | ERROR | ['NATIONALSECURITIES.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:01,173 | ERROR | $NSD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:01,174 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:01,175 | ERROR | ['NSD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:02,319 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-23 11:56:04,042 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:04,049 | ERROR | 
+2 Failed downloads:
+2026-03-23 11:56:04,049 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-23 11:56:04,049 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:04,460 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-23 11:56:04,758 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:04,763 | ERROR | 
+2 Failed downloads:
+2026-03-23 11:56:04,764 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-23 11:56:04,764 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:05,817 | ERROR | $NATIONALSECURITIESDEPOSITORY.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:05,821 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:05,823 | ERROR | ['NATIONALSECURITIESDEPOSITORY.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:06,527 | ERROR | $NATIONALSECURITIESDEPOSITORY.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:06,528 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:06,530 | ERROR | ['NATIONALSECURITIESDEPOSITORY.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:07,553 | ERROR | $NATIONAL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:07,553 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:07,556 | ERROR | ['NATIONAL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:09,366 | ERROR | $NATIONAL.BO: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:09,374 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:09,375 | ERROR | ['NATIONAL.BO']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:11,247 | ERROR | $NATIONALSECURITIES.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:11,255 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:11,255 | ERROR | ['NATIONALSECURITIES.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:12,861 | ERROR | $NSD.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:12,864 | ERROR | 
+1 Failed download:
+2026-03-23 11:56:12,866 | ERROR | ['NSD.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 11:56:24,418 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-23 11:56:29,450 | INFO | ANALYSIS COMPLETE | user=hellou | client=Date Range: 2025-04-01 to 2026-03-20 | label=Analysis 23 Mar 2026, 11:56
+2026-03-23 12:15:09,264 | WARNING | (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\soham_313igpq\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-23 12:15:09,556 | INFO | USER LOGIN | username=hellou | email=hello@gmail.com
+2026-03-23 12:15:31,612 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-23 12:15:31,630 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-23 12:15:32,122 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-23 12:15:32,843 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:33,250 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:33,257 | ERROR | 
+3 Failed downloads:
+2026-03-23 12:15:33,258 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-23 12:15:33,258 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:33,461 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-23 12:15:34,173 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:34,174 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:34,181 | ERROR | 
+3 Failed downloads:
+2026-03-23 12:15:34,182 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-23 12:15:34,183 | ERROR | ['KALYANIINV.NS', 'PEL.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:35,502 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-23 12:15:42,362 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEL.NS"}}}
+2026-03-23 12:15:43,183 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:43,899 | ERROR | $PEL.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:15:45,724 | INFO | ANALYSIS COMPLETE | user=hellou | client=Date Range: Tue Apr 01 2025 to Wed Feb 18 2026 | label=Analysis 23 Mar 2026, 12:15
+2026-03-23 12:16:26,213 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:16:26,252 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:18:31,351 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:18:31,760 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=1d)
+2026-03-23 12:18:31,784 | ERROR | 
+2 Failed downloads:
+2026-03-23 12:18:31,785 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:18:31,785 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=1d)
+2026-03-23 12:18:32,061 | ERROR | $PILANIINV.NS: possibly delisted; no price data found  (period=5d)
+2026-03-23 12:18:32,452 | ERROR | $KALYANIINV.NS: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:18:32,453 | ERROR | 
+2 Failed downloads:
+2026-03-23 12:18:32,453 | ERROR | ['PILANIINV.NS']: possibly delisted; no price data found  (period=5d)
+2026-03-23 12:18:32,453 | ERROR | ['KALYANIINV.NS']: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-23 12:18:34,087 | ERROR | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KALYANIINV.NS"}}}
+2026-03-23 12:18:39,076 | INFO | ANALYSIS COMPLETE | user=hellou | client=Date Range: 2025-04-01 to 2026-03-20 | label=Analysis 23 Mar 2026, 12:18
+2026-03-23 12:19:53,325 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:19:53,449 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:20:27,667 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:20:27,694 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:28:55,437 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)
+2026-03-23 12:28:55,479 | INFO | Nifty 1Y return: -2.3% (from 2025-03-24 to 2026-03-20)

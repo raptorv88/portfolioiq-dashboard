@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { font-size: 15px; }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: #f5f6fa;
+    color: #0f1120;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+}
+
+@layer components {
+
+  /* ── Cards ── */
+  .card {
+    @apply bg-white rounded-2xl border border-slate-200/80 shadow-sm;
+  }
+  .card-inset {
+    @apply bg-slate-50 rounded-xl border border-slate-200/60;
+  }
+
+  /* ── Buttons ── */
+  .btn {
+    @apply inline-flex items-center gap-2 font-medium rounded-xl
+           transition-all duration-150 select-none cursor-pointer
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-ink-600 hover:bg-ink-700 active:bg-ink-800
+           text-white px-4 py-2.5 text-sm shadow-sm shadow-ink-600/20;
+  }
+  .btn-ghost {
+    @apply btn text-slate-600 hover:text-slate-900 hover:bg-slate-100
+           px-3 py-2 text-sm;
+  }
+  .btn-outline {
+    @apply btn border border-slate-200 bg-white hover:bg-slate-50
+           text-slate-700 px-4 py-2.5 text-sm shadow-sm;
+  }
+  .btn-danger {
+    @apply btn text-red-600 hover:text-red-700 hover:bg-red-50
+           border border-red-200 px-3 py-2 text-sm;
+  }
+  .btn-icon {
+    @apply btn p-2 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-lg;
+  }
+
+  /* ── Form ── */
+  .field-label {
+    @apply block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5;
+  }
+  .field-input {
+    @apply w-full bg-white border border-slate-200 rounded-xl px-3.5 py-2.5
+           text-sm text-slate-900 placeholder-slate-400
+           focus:outline-none focus:ring-2 focus:ring-ink-500/30 focus:border-ink-400
+           transition-all duration-150;
+  }
+
+  /* ── Badges ── */
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium;
+  }
+  .badge-green  { @apply badge bg-emerald-50 text-emerald-700 border border-emerald-200/60; }
+  .badge-red    { @apply badge bg-red-50 text-red-700 border border-red-200/60; }
+  .badge-blue   { @apply badge bg-ink-50 text-ink-700 border border-ink-200/60; }
+  .badge-amber  { @apply badge bg-amber-50 text-amber-700 border border-amber-200/60; }
+  .badge-violet { @apply badge bg-violet-50 text-violet-700 border border-violet-200/60; }
+  .badge-slate  { @apply badge bg-slate-100 text-slate-600; }
+
+  /* ── Table ── */
+  .tbl-wrap {
+    @apply rounded-xl border border-slate-200 overflow-auto;
+  }
+  .tbl {
+    @apply w-full text-sm border-collapse;
+  }
+  .tbl thead th {
+    @apply px-3.5 py-2.5 text-left text-xs font-semibold text-slate-400
+           uppercase tracking-wider bg-slate-50/80
+           border-b border-slate-200 sticky top-0 z-10
+           whitespace-nowrap cursor-pointer select-none
+           hover:text-slate-600 transition-colors;
+  }
+  .tbl tbody tr {
+    @apply border-b border-slate-100 transition-colors hover:bg-ink-50/40;
+  }
+  .tbl tbody tr:last-child { @apply border-0; }
+  .tbl tbody td {
+    @apply px-3.5 py-2.5 text-slate-700 whitespace-nowrap;
+  }
+  .tbl-num {
+    @apply text-right font-mono text-xs;
+  }
+
+  /* ── KPI card ── */
+  .kpi-card {
+    @apply card p-4 flex flex-col gap-0.5;
+  }
+  .kpi-label {
+    @apply text-xs font-semibold text-slate-400 uppercase tracking-wider;
+  }
+  .kpi-value {
+    @apply text-xl font-bold text-slate-900 leading-tight mt-0.5;
+  }
+  .kpi-sub {
+    @apply text-xs text-slate-400 mt-0.5;
+  }
+
+  /* ── Section title ── */
+  .section-title {
+    @apply text-sm font-semibold text-slate-700 mb-3;
+  }
+
+  /* ── Nav tab ── */
+  .nav-tab {
+    @apply px-4 py-3 text-sm font-medium transition-all duration-150
+           border-b-2 whitespace-nowrap;
+  }
+  .nav-tab-active {
+    @apply nav-tab border-ink-600 text-ink-700;
+  }
+  .nav-tab-inactive {
+    @apply nav-tab border-transparent text-slate-500 hover:text-slate-800 hover:border-slate-300;
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+.animate-fade-up {
+  animation: fadeUp 0.22s ease-out both;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fadeIn 0.18s ease-out both;
+}
