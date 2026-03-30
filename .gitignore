@@ -1,15 +1,71 @@
-# Python
+# ── Python ────────────────────────────────────────────────────────────────
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-.env
-venv/
-*.db
-
-# Node
-node_modules/
+*.pyd
+.Python
+*.egg-info/
 dist/
+build/
+.eggs/
+*.egg
 
-# OS
+# ── Virtual environments ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Database files — NEVER upload client data ─────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+portfolio_data.db
+
+# ── Sensitive config & secrets ─────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.py
+config.local.py
+
+# ── Logs ──────────────────────────────────────────────────────────────────
+*.log
+app.log
+logs/
+
+# ── Cache files ───────────────────────────────────────────────────────────
+ticker_cache.json
+nse_symbols_master.csv
+
+# ── Node / Frontend ────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.npm/
+
+# ── Build outputs ──────────────────────────────────────────────────────────
+frontend/build/
+*.tsbuildinfo
+
+# ── OS files ──────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ── VS Code ───────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Uploads / temp files ──────────────────────────────────────────────────
+uploads/
+temp/
+tmp/
+*.tmp
+*.bak
+
+# ── Excel / data files that may contain client data ───────────────────────
+*.xlsx
+*.xls
+*.csv

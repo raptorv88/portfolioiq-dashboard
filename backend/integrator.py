@@ -26,6 +26,13 @@ from portfolio_analysis import (
 #  Handles scrips not present in TICKER_MAP — resolves via pattern matching,
 #  yfinance search, and persistent cache.
 # ─────────────────────────────────────────────────────────────────────────────
+# ISIN-based scrip resolution — fixes duplicate name issues
+try:
+    from isin_master import get_isin, get_canonical_name
+    _ISIN_AVAILABLE = True
+except ImportError:
+    _ISIN_AVAILABLE = False
+
 from ticker_resolver import (
     fetch_sector_cap_with_autoresolve,
     fetch_live_prices_with_autoresolve,
@@ -400,10 +407,59 @@ def integrate(
         "NTPC LTD."                              : "NTPC",
     }
 
+    # ── ISIN cache for this analysis run ─────────────────────────────────
+    _isin_cache: dict = {}   # scrip_name → canonical key
+
     def _cn(name: str) -> str:
-        s = str(name).strip().upper().rstrip(".")
+        """
+        Normalise scrip name to a canonical key for deduplication.
+
+        Priority:
+          1. ISIN lookup via isin_master (most accurate — resolves all
+             broker name variants to one canonical key)
+          2. Manual _NAME_MAP overrides (known truncations)
+          3. Auto-strip trailing corporate suffixes (LTD, LIMITED, etc.)
+
+        Using ISIN as the key means "ANANTRAJ" and "ANANT RAJ LIMITED"
+        both map to the same ISIN INE242C01024 → one row in holdings.
+        """
+        if name in _isin_cache:
+            return _isin_cache[name]
+
+        s = str(name).strip().upper()
+        s = re.sub(r"[.\-]+$", "", s).strip()
         s = re.sub(r"\s+", " ", s)
-        return _NAME_MAP.get(s, s)
+
+        # ── 1. ISIN lookup ────────────────────────────────────────────────
+        if _ISIN_AVAILABLE:
+            try:
+                isin = get_isin(name)
+                if isin:
+                    # Use ISIN as the canonical key — unique per company
+                    _isin_cache[name] = isin
+                    return isin
+            except Exception:
+                pass
+
+        # ── 2. Manual NAME_MAP overrides ──────────────────────────────────
+        if s in _NAME_MAP:
+            result = _NAME_MAP[s]
+            _isin_cache[name] = result
+            return result
+
+        # ── 3. Auto-strip common corporate suffixes ───────────────────────
+        for pat in [
+            r"\s+LIMITED$", r"\s+LTD$", r"\s+LT$", r"\s+L$",
+            r"\s+PVT$", r"\s+PRIVATE$",
+            r"\s+CORPORATION$", r"\s+CORP$", r"\s+COR$", r"\s+CO$",
+        ]:
+            stripped = re.sub(pat, "", s).strip()
+            if stripped and stripped != s:
+                s = stripped
+                break
+
+        _isin_cache[name] = s
+        return s
 
     # ── Step 1: Build opening lots from Holdings File ─────────────────────
     # These seed the FIFO queue so Trade Report sells match Holdings File buys
@@ -492,7 +548,17 @@ def integrate(
         net_qty    = total_buy - total_sell
         total_inv  = _iba + _tra
         avg_cost   = round(total_inv / total_buy, 4) if total_buy > 0 else 0.0
-        display    = it_name.get(c, tr_name.get(c, c))
+        # Resolve display name:
+        # If c is an ISIN, get the canonical NSE name for display
+        # Otherwise fall back to the raw name from whichever file had it
+        if _ISIN_AVAILABLE and isinstance(c, str) and len(c) == 12 and c.startswith("IN"):
+            try:
+                canonical = get_canonical_name(c)
+                display = canonical if canonical else it_name.get(c, tr_name.get(c, c))
+            except Exception:
+                display = it_name.get(c, tr_name.get(c, c))
+        else:
+            display = it_name.get(c, tr_name.get(c, c))
         in_it      = _itb > 0 or _its > 0
         in_tr      = _trb > 0 or _trs > 0
         source     = "Both Files" if in_it and in_tr else ("Holdings File" if in_it else "Trade Report")
@@ -515,50 +581,14 @@ def integrate(
             "Closing Price"  : it_closing.get(c, 0.0),
             "Buy Date"       : it_buy_date.get(c, pd.NaT),
             "Status"         : status,
+            "ISIN"           : c if (_ISIN_AVAILABLE and len(str(c)) == 12 and str(c).startswith("IN")) else None,
             "Live Price"     : np.nan,
             "Effective Price": np.nan,
             "Price Used"     : "—",
         })
 
-    all_df = pd.DataFrame(rows)
-
-    # ── Classify ANOMALY rows correctly before filtering ─────────────────
-    #
-    # ANOMALY = net_qty < 0 means sells > buys. Two distinct causes:
-    #
-    # Case A — Holdings file NOT uploaded, only Trade Report:
-    #   Buy happened before the trade period — no buy record exists.
-    #   This IS a real holding, we just don't know the cost basis.
-    #   → Keep it, flag MISSING_BUY, net_qty = sell_qty, avg_cost = 0.
-    #
-    # Case B — BOTH files uploaded but net_qty still negative:
-    #   Genuine FIFO mismatch — data itself is inconsistent.
-    #   → Exclude from holdings, still visible in Reconciliation tab.
-    #
-    has_holdings_file = holdings_file_df is not None and not holdings_file_df.empty
-
-    fixed_rows = []
-    for row in all_df.to_dict('records'):
-        if row["Net Quantity"] >= 0:
-            fixed_rows.append(row)
-            continue
-        if not has_holdings_file and row["IT Buy Qty"] == 0:
-            # Case A: only trade report, buy predates report period
-            row = dict(row)
-            row["Net Quantity"] = row["Trade Sell Qty"]
-            row["Status"]       = "MISSING_BUY"
-            row["Avg Cost"]     = 0.0
-            row["Buy Amount"]   = 0.0
-        else:
-            # Case B: both files, still negative → genuine anomaly
-            row = dict(row)
-            row["Status"] = "ANOMALY"
-        fixed_rows.append(row)
-
-    all_df = pd.DataFrame(fixed_rows)
-
-    # OPEN + MISSING_BUY → holdings  |  ANOMALY + CLOSED → recon only
-    unified = all_df[all_df["Status"].isin(["OPEN", "MISSING_BUY"])].copy().reset_index(drop=True)
+    all_df  = pd.DataFrame(rows)
+    unified = all_df[all_df["Status"].isin(["OPEN","ANOMALY"])].copy().reset_index(drop=True)
 
     if unified.empty:
         raise ValueError("No open positions found after combining both files.")

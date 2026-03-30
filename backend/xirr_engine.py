@@ -57,6 +57,13 @@
 import warnings
 warnings.filterwarnings("ignore")
 
+# ISIN-based resolution
+try:
+    from isin_master import get_isin
+    _ISIN_AVAILABLE = True
+except ImportError:
+    _ISIN_AVAILABLE = False
+
 import re
 import pandas as pd
 import numpy as np
@@ -134,11 +141,49 @@ _NAME_MAP = {
 }
 
 
+_xirr_isin_cache: dict = {}
+
 def _cn(name: str) -> str:
-    """Normalise scrip name to canonical form for cross-file matching."""
-    s = str(name).strip().upper().rstrip(".")
+    """
+    Normalise scrip name using ISIN as primary key when available.
+    Falls back to NAME_MAP overrides then auto suffix stripping.
+    """
+    if name in _xirr_isin_cache:
+        return _xirr_isin_cache[name]
+
+    s = str(name).strip().upper()
+    s = re.sub(r"[.-]+$", "", s).strip()
     s = re.sub(r"\s+", " ", s)
-    return _NAME_MAP.get(s, s)
+
+    # 1. ISIN lookup
+    if _ISIN_AVAILABLE:
+        try:
+            isin = get_isin(name)
+            if isin:
+                _xirr_isin_cache[name] = isin
+                return isin
+        except Exception:
+            pass
+
+    # 2. Manual NAME_MAP
+    if s in _NAME_MAP:
+        result = _NAME_MAP[s]
+        _xirr_isin_cache[name] = result
+        return result
+
+    # 3. Auto-strip suffixes
+    for pat in [
+        r"\s+LIMITED$", r"\s+LTD$", r"\s+LT$", r"\s+L$",
+        r"\s+PVT$", r"\s+PRIVATE$",
+        r"\s+CORPORATION$", r"\s+CORP$", r"\s+COR$", r"\s+CO$",
+    ]:
+        stripped = re.sub(pat, "", s).strip()
+        if stripped and stripped != s:
+            s = stripped
+            break
+
+    _xirr_isin_cache[name] = s
+    return s
 
 
 # ─────────────────────────────────────────────────────────────────────────────

@@ -338,12 +338,9 @@ def _fuzzy_match_nse(scrip: str) -> str | None:
             return word_match.loc[word_match["_len_diff"].idxmin()]["_ticker"]
 
     return None
-
-
 # ─────────────────────────────────────────────────────────────────────────────
 #  CACHE
 # ─────────────────────────────────────────────────────────────────────────────
-
 def _load_cache() -> dict:
     try:
         if os.path.exists(CACHE_FILE):
@@ -366,11 +363,9 @@ def _save_cache(cache: dict):
 
 _TICKER_CACHE: dict = _load_cache()
 
-
 # ─────────────────────────────────────────────────────────────────────────────
 #  TICKER VERIFICATION
 # ─────────────────────────────────────────────────────────────────────────────
-
 def _verify_ticker(ticker: str) -> bool:
     try:
         data = yf.download(ticker, period="5d", interval="1d", progress=False, auto_adjust=True)
@@ -381,13 +376,24 @@ def _verify_ticker(ticker: str) -> bool:
 
 def _get_info_safe(ticker: str) -> dict:
     try:
-        t    = yf.Ticker(ticker)
-        info = t.info
-        if info.get("regularMarketPrice") or info.get("currentPrice") or info.get("marketCap"):
-            return info
-        fi = t.fast_info
-        if hasattr(fi, "market_cap") and fi.market_cap:
-            return {"sector": None, "marketCap": fi.market_cap}
+        import threading
+        result = {}
+        def _fetch():
+            try:
+                t    = yf.Ticker(ticker)
+                info = t.info
+                if info.get("regularMarketPrice") or info.get("currentPrice") or info.get("marketCap"):
+                    result.update(info)
+                    return
+                fi = t.fast_info
+                if hasattr(fi, "market_cap") and fi.market_cap:
+                    result.update({"sector": None, "marketCap": fi.market_cap})
+            except Exception:
+                pass
+        t = threading.Thread(target=_fetch, daemon=True)
+        t.start()
+        t.join(timeout=8)   # ← hard 8-second cap, no more 30s hangs
+        return result
     except Exception:
         pass
     return {}
@@ -522,13 +528,22 @@ MID_CAP_THRESHOLD   =  5_000
 SMALL_CAP_THRESHOLD =  1_000
 
 _SECTOR_OVERRIDES = {
-    "^NSEI"        : ("Index",     "Index/ETF"),
-    "^NSEBANK"     : ("Index",     "Index/ETF"),
-    "^BSESN"       : ("Index",     "Index/ETF"),
-    "LIQUIDBETF.NS": ("ETF",       "Index/ETF"),
-    "GOLDM-MCX.NS" : ("Commodity", "Commodity"),
+    "^NSEI"          : ("Index",               "Index/ETF"),
+    "^NSEBANK"       : ("Index",               "Index/ETF"),
+    "^BSESN"         : ("Index",               "Index/ETF"),
+    "LIQUIDBETF.NS"  : ("ETF",                 "Index/ETF"),
+    "GOLDM-MCX.NS"   : ("Commodity",           "Commodity"),
+    # Holding / Investment companies — yfinance returns no sector
+    "KALYANIINV.NS"  : ("Financial Services",  "Small Cap"),
+    "KICL.NS"        : ("Financial Services",  "Small Cap"),
+    "PILANIINVS.NS"  : ("Financial Services",  "Small Cap"),
+    "PILANIINV.NS"   : ("Financial Services",  "Small Cap"),
+    "BEL.NS"         : ("Defence",             "Large Cap"),
+    "PNGSREVA.NS"    : ("Consumer Cyclical",   "Small Cap"),
+    "GRSE.NS"        : ("Defence",             "Mid Cap"),
+    "COCHINSHIP.NS"  : ("Defence",             "Mid Cap"),
+    "MAZDOCK.NS"     : ("Defence",             "Mid Cap"),
 }
-
 
 def _classify_cap(mcap_cr) -> str:
     if mcap_cr is None:
@@ -681,6 +696,8 @@ def get_extended_ticker_map(base_ticker_map: dict = None) -> dict:
     result.update(_EXTRA_OVERRIDES)
     result.update(_TICKER_CACHE)
     return result
+
+
 
 
 def refresh_nse_master():

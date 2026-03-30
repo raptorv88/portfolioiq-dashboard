@@ -71,6 +71,7 @@ TICKER_MAP = {
     "ZEE ENTERTAINMENT ENTERPRISES"     : "ZEEL.NS",
 }
 
+
 # Scrips that are index / derivative instruments (no physical holding)
 INDEX_KEYWORDS = r"NIFTY|SENSEX|BANKNIFTY|FINNIFTY|BANKEX"
 
@@ -227,27 +228,6 @@ def separate_index_equity(df: pd.DataFrame):
     return equity_df, index_df
 
 def run_fifo(trades: pd.DataFrame, initial_lots: list = None):
-    """
-    FIFO matching engine.
-
-    Parameters
-    ----------
-    trades       : DataFrame with columns [Trade Date, Action, Quantity, Price]
-                   sorted ascending by Trade Date.
-    initial_lots : optional list of (qty, cost_price) tuples representing
-                   opening inventory from the Holdings File. These are seeded
-                   into the buy queue BEFORE processing any trade report rows,
-                   so that sells in the Trade Report correctly match against
-                   buys recorded in the Holdings File.
-
-    Returns
-    -------
-    realized_pnl   : float  — total realized gain / loss
-    open_lots      : list of (qty, cost_price) tuples for unsold shares
-    avg_cost       : float  — weighted average cost of open position
-    total_open_qty : int    — net shares still held
-    realized_rows  : list of dicts — each matched sell event
-    """
     buy_queue     = deque()   # each element: [qty_remaining, cost_price]
     realized_pnl  = 0.0
     realized_rows = []
@@ -306,11 +286,6 @@ def run_fifo(trades: pd.DataFrame, initial_lots: list = None):
 
     return realized_pnl, open_lots, avg_cost, total_open_qty, realized_rows
 def fetch_live_prices(holdings_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Map each scrip to a yfinance ticker and download latest 1-minute close.
-    Falls back to last available daily close if intraday unavailable.
-    Automatically resolves tickers for scrips not in TICKER_MAP.
-    """
     from ticker_resolver import fetch_live_prices_with_autoresolve, get_extended_ticker_map
 
     holdings_df = holdings_df.copy()
@@ -328,15 +303,6 @@ def fetch_live_prices(holdings_df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_opening_lots_from_holdings(holdings_df: pd.DataFrame) -> dict:
-    """
-    Build a per-scrip opening lot map from the Holdings File (IT Report).
-    Used to seed the FIFO queue so sells in the Trade Report correctly
-    match against buys recorded in the Holdings File.
-
-    Returns
-    -------
-    dict : {scrip_name_upper: [(net_qty, avg_cost_per_share), ...]}
-    """
     result = {}
     if holdings_df is None or holdings_df.empty:
         return result
@@ -366,22 +332,7 @@ def calculate_equity_positions(
     equity_df    : pd.DataFrame,
     opening_lots : dict = None,
 ):
-    """
-    Run FIFO per scrip.
 
-    Parameters
-    ----------
-    equity_df    : trades dataframe (cleaned, sorted, equity only)
-    opening_lots : optional dict {scrip_name: [(qty, cost), ...]}
-                   from build_opening_lots_from_holdings().
-                   These lots are pre-loaded into the FIFO queue so that
-                   Trade Report sells correctly match against Holdings File buys.
-
-    Returns
-    -------
-    holdings_df  : open positions with avg cost & qty
-    realized_df  : detailed realized P&L per scrip
-    """
     holdings_rows  = []
     realized_rows  = []
 
@@ -446,7 +397,6 @@ def calculate_unrealized_pnl(holdings_df: pd.DataFrame) -> pd.DataFrame:
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  5. PORTFOLIO WEIGHTS
-#     — your original maths, untouched
 # ─────────────────────────────────────────────────────────────────────────────
 
 def calculate_weights(holdings_df: pd.DataFrame) -> pd.DataFrame:
@@ -470,7 +420,7 @@ def calculate_weights(holdings_df: pd.DataFrame) -> pd.DataFrame:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  6. ENS  —  your original maths, untouched
+#  6. ENS 
 # ─────────────────────────────────────────────────────────────────────────────
 
 def calculate_ens(df: pd.DataFrame) -> float:
@@ -478,18 +428,18 @@ def calculate_ens(df: pd.DataFrame) -> float:
     if "Weight %" not in df.columns:
         raise ValueError("Weight % column not found.")
 
-    weights = df["Weight %"] / 100
-    weights = weights[weights > 0]
+    weights = int(df["Weight %"] / 100)
+    weights = int(weights[weights > 0])
 
     if len(weights) == 0:
         return 0
 
     ens = 1 / (weights ** 2).sum()
-    return round(ens, 2)
+    return int(ens)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  7. CORE – SATELLITE – TAIL  —  your original maths, untouched
+#  7. CORE – SATELLITE – TAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def calculate_core_satellite_tail(df: pd.DataFrame) -> dict:
@@ -504,6 +454,7 @@ def calculate_core_satellite_tail(df: pd.DataFrame) -> dict:
     core      = df[df["Weight %"] >= CORE_THRESHOLD]
     satellite = df[(df["Weight %"] >= SATELLITE_THRESHOLD) & (df["Weight %"] < CORE_THRESHOLD)]
     tail      = df[df["Weight %"] < SATELLITE_THRESHOLD]
+
 
     return {
         "Core Allocation %"      : round(core["Weight %"].sum(),      2),
@@ -643,7 +594,7 @@ def portfolio_summary(holdings_df: pd.DataFrame, realized_df: pd.DataFrame) -> d
         "Total P&L (Realized + Unreal)": round(total_pnl,          2),
         "Number of Open Positions"    : len(holdings_df),
     }
-
+''
 
 def sector_allocation(holdings_df: pd.DataFrame) -> dict:
     """Weight % grouped by Sector."""
@@ -728,9 +679,6 @@ def display_dict(d: dict, title=""):
         print(f"  {k:<35} : {v}")
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  13. MAIN ORCHESTRATOR
-# ─────────────────────────────────────────────────────────────────────────────
 
 def main():
     _section("PORTFOLIO ANALYSIS ")
@@ -808,7 +756,7 @@ def main():
 
     # 5. ENS
     _sub_section("EFFECTIVE NUMBER OF STOCKS  (ENS = 1 / Σw²)")
-    print(f"  ENS  :  {ens}")
+    print(f"  ENS  :  {int(ens)}")
     print(f"  Interpretation: Portfolio behaves like ~{int(ens)} equally-weighted stocks.")
 
     # 6. Core – Satellite – Tail

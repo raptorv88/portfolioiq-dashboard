@@ -44,7 +44,14 @@ import numpy as np
 
 import logging
 from logging.handlers import RotatingFileHandler
+from dotenv import load_dotenv
+load_dotenv()
 
+SECRET_KEY     = os.getenv("SECRET_KEY", "change-this-in-production")
+ALGORITHM      = "HS256"
+TOKEN_EXPIRE_H = int(os.getenv("TOKEN_EXPIRE_H", "24"))
+DB_URL         = os.getenv("DATABASE_URL", "postgresql://postgres@localhost:5432/portfolio_db")
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
 # ── Logging Setup ─────────────────────────────────────────────────────────────
 LOG_FILE = Path(__file__).parent / "app.log"
 
@@ -471,10 +478,11 @@ app = FastAPI(title="Portfolio Analysis API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173"],
-    allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
-
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
 
