@@ -10,8 +10,6 @@
     - ISIN → canonical name
     - ISIN → NSE ticker (.NS suffix)
     - ISIN → yfinance-ready ticker
-  
-  Auto-refreshes weekly. Falls back to cached version if NSE is unreachable.
 ================================================================================
 """
 
